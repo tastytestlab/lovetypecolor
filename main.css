@@ -1,0 +1,14 @@
+#main{
+    background-color: rgb(245, 244, 244);
+    width: 80%;
+    text-align: center;
+    border-radius: 40px;
+}
+
+p{
+    font-size: 19px;
+}
+.ad-banner {
+    width: 320px;
+    margin: 0 auto;
+}
