@@ -1,49 +1,25 @@
-const url = 'https://https://justest.shop/';
+const url = 'https://justest.shop/';
 
 function kakaoShare() {
     Kakao.Share.createDefaultButton({
         container: '#kakaotalk-sharing-btn',
         objectType: 'feed',
         content: {
-            title: '오늘의 디저트',
-            description: '아메리카노, 빵, 케익',
+            title: '연애유형 컬러 테스트!',
+            description: '핫한 질문들로 알아보는 연애유형 컬러 테스트!',
             imageUrl:
-                'https://mud-kage.kakao.com/dn/NTmhS/btqfEUdFAUf/FjKzkZsnoeE4o19klTOVI1/openlink_640x640s.jpg',
+                'img/share.png',
             link: {
-                mobileWebUrl: 'https://developers.kakao.com',
-                webUrl: 'https://developers.kakao.com',
+                mobileWebUrl: 'https://justest.shop/',
+                webUrl: 'https://justest.shop/',
             },
         },
         itemContent: {
             profileText: 'Kakao',
-            profileImageUrl: 'https://mud-kage.kakao.com/dn/Q2iNx/btqgeRgV54P/VLdBs9cvyn8BJXB3o7N8UK/kakaolink40_original.png',
-            titleImageUrl: 'https://mud-kage.kakao.com/dn/Q2iNx/btqgeRgV54P/VLdBs9cvyn8BJXB3o7N8UK/kakaolink40_original.png',
-            titleImageText: 'Cheese cake',
-            titleImageCategory: 'Cake',
-            items: [
-                {
-                    item: 'Cake1',
-                    itemOp: '1000원',
-                },
-                {
-                    item: 'Cake2',
-                    itemOp: '2000원',
-                },
-                {
-                    item: 'Cake3',
-                    itemOp: '3000원',
-                },
-                {
-                    item: 'Cake4',
-                    itemOp: '4000원',
-                },
-                {
-                    item: 'Cake5',
-                    itemOp: '5000원',
-                },
-            ],
-            sum: 'Total',
-            sumOp: '15000원',
+            profileImageUrl: 'https://justest.shop/',
+            titleImageUrl: 'img/share.png',
+            titleImageText: '',
+            titleImageCategory: '',
         },
         social: {
             likeCount: 10,
