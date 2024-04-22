@@ -6,7 +6,7 @@ function setShare() {
     const shareTitle = '연애유형 컬러 테스트 결과';
     const shareDes = infoList[resultAlt].name;
     const shareImage = url + 'img/image-' + resultAlt + '.png';
-    const shareURL = url + 'page.result-' + resultAlt + '.html';
+    const shareURL = url + 'page/result-' + resultAlt + '.html';
 }
 
 Kakao.link.sendDefault({
@@ -29,6 +29,6 @@ Kakao.link.sendDefault({
                 webUrl: shareURL,
             },
         },
-    ],
-})
+    ]
+});
 
